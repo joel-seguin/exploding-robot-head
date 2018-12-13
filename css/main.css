@@ -44,13 +44,13 @@ body {
 .robot-head-left {
   position: absolute;
   top: 0;
-  left: 10%;
+  left: 12%;
 }
 
 .robot-head-right {
   position: absolute;
   top: 0;
-  right: 10%
+  right: 12%;
 }
 
 .robot:hover > .robot-head-left {
@@ -60,5 +60,10 @@ body {
 
 .robot:hover > .robot-head-right {
   top: -10%;
+  left: 0;
+}
+
+.robot:hover > .robot-brain {
+  top: 10%;
   left: 0;
 }
